@@ -351,8 +351,8 @@ export default function App() {
       
       {/* Footer */}
       <footer className="bg-green-900 text-green-50 py-8 text-center mt-12">
-       <div className="flex justify-center items-center gap-2 mb-2">
-  <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-8 object-contain filter brightness-0 invert" />
+       <div className="flex justify-center items-center gap-3 mb-2 bg-white/10 px-4 py-2 rounded-full w-fit mx-auto">
+  <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-8 object-contain" />
   <span className="font-bold text-lg text-white">TetanggaCare</span>
 </div>
         <p className="text-sm mb-4">Teman dan Pendamping untuk Keluarga.</p>
