@@ -100,7 +100,7 @@ export default function App() {
             className="text-2xl font-bold text-green-700 cursor-pointer flex items-center gap-2"
             onClick={() => setCurrentPage('home')}
           >
-           <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-12 object-contain" />
+         <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-20 md:h-28 object-contain" />
           </div>
           <div className="hidden md:flex space-x-6">
             <button onClick={() => setCurrentPage('home')} className="hover:text-green-600 font-medium">Beranda</button>
@@ -351,7 +351,7 @@ export default function App() {
       
       {/* Footer */}
       <footer className="bg-green-900 text-green-50 py-8 text-center mt-12">
-        <p className="font-bold text-lg mb-2">🌿 TetanggaCare</p>
+       <p className="font-bold text-lg mb-2">TetanggaCare</p>
         <p className="text-sm mb-4">Teman dan Pendamping untuk Keluarga.</p>
         <p className="text-xs text-green-200">© 2026 TetanggaCare Prototype. Dibuat untuk keperluan presentasi.</p>
       </footer>
