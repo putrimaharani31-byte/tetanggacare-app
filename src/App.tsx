@@ -351,7 +351,10 @@ export default function App() {
       
       {/* Footer */}
       <footer className="bg-green-900 text-green-50 py-8 text-center mt-12">
-       <p className="font-bold text-lg mb-2">TetanggaCare</p>
+       <div className="flex justify-center items-center gap-2 mb-2">
+  <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-8 object-contain filter brightness-0 invert" />
+  <span className="font-bold text-lg text-white">TetanggaCare</span>
+</div>
         <p className="text-sm mb-4">Teman dan Pendamping untuk Keluarga.</p>
         <p className="text-xs text-green-200">© 2026 TetanggaCare Prototype. Dibuat untuk keperluan presentasi.</p>
       </footer>
