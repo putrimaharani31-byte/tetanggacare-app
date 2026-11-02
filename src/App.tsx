@@ -100,7 +100,7 @@ export default function App() {
             className="text-2xl font-bold text-green-700 cursor-pointer flex items-center gap-2"
             onClick={() => setCurrentPage('home')}
           >
-           <img src="/logo.png" alt="Logo TetanggaCare" className="h-12 object-contain" />
+           <img src="/logo.png.png" alt="Logo TetanggaCare" className="h-12 object-contain" />
           </div>
           <div className="hidden md:flex space-x-6">
             <button onClick={() => setCurrentPage('home')} className="hover:text-green-600 font-medium">Beranda</button>
