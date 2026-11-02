@@ -154,7 +154,7 @@ export default function App() {
                   <p className="text-sm text-gray-500">Pilih layanan yang paling tepat untuk keluarga Anda.</p>
                 </div>
                 <div className="p-4 bg-white rounded-xl shadow-sm border border-gray-100">
-                  <div className="text-3xl mb-3">شف</div>
+                  <div className="text-3xl mb-3">🔍</div>
                   <h3 className="font-bold mb-2">Transparan</h3>
                   <p className="text-sm text-gray-500">Informasi layanan dan tarif ditampilkan jelas di awal.</p>
                 </div>
